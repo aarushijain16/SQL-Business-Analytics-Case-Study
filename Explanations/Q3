@@ -1,0 +1,23 @@
+## 🧠 Problem Statement
+[Q3](https://github.com/aarushijain16/SQL-Business-Analytics-Case-Study/blob/main/Queries/Q3.sql). Identify the top 3 customers based on total revenue generated.
+
+## 🎯 Objective
+To identify high-value customers who contribute the most to overall revenue, enabling targeted retention and engagement strategies.
+
+## 🛠️ Approach
+- Aggregated total revenue at the customer level using SUM()
+- Joined customers, orders, and order_items tables to capture complete transaction data
+- Used a Common Table Expression (CTE) to structure intermediate results
+- Applied ROW_NUMBER() to rank customers based on revenue in descending order
+- Filtered the top 3 customers using rank
+
+## ⚙️ Why This Function?
+ROW_NUMBER() is used to assign a unique rank to each customer based on revenue contribution.  
+It is preferred over RANK() or DENSE_RANK() because it ensures exactly 3 customers are selected, even when multiple customers have the same revenue.  
+Additionally, ordering by customer_id ensures deterministic ranking in case of ties.
+
+## 💡 Business Insight
+This analysis helps businesses:
+- Identify high-value customers for retention and personalized engagement  
+- Allocate resources toward customers with the highest revenue impact  
+- Recognize low-value customers and design strategies to improve their contribution  
