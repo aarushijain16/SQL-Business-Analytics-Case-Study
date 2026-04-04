@@ -5,7 +5,7 @@ WITH customer_rfm AS (
 SELECT o.customer_id,
        MAX(o.order_date) AS last_order,
 	   COUNT(o.order_id) AS frequency,
-	   SUM(oi.quantity) AS monetary
+	   SUM(oi.revenue) AS monetary
 FROM orders o
 JOIN order_items oi 
 ON o.order_id = oi.order_id
