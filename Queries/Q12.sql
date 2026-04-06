@@ -1,4 +1,4 @@
--- 12. Identify stockout risk and overstock situations by calculating how many days current inventory can sustain based on average daily sales.Identify stockout risk and overstock situations by calculating how many days current inventory can sustain based on average daily sales.Identify stockout risk and overstock situations by calculating how many days current inventory can sustain based on average daily sales.
+-- 12. Identify stockout risk and overstock situations by calculating how many days current inventory can sustain based on average daily sales.
 
 
 WITH sales_data AS (
