@@ -17,8 +17,8 @@ SELECT product_id,
 	   selling_days,
 	   ROUND(total_units_sold::numeric / NULLIF(selling_days,0),2) AS avg_daily_sales,
 	   CASE 
-           WHEN total_units > 100 THEN total_units * 0.6
-           ELSE total_units * 0.3
+           WHEN total_units_sold > 100 THEN total_units_sold * 0.6
+           ELSE total_units_sold * 0.3
       END AS current_stock
 FROM sales_data
 )
