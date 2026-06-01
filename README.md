@@ -1,5 +1,5 @@
 
-# 📊 SQL Business Analytics Case Study: From Data to Decisions
+# 📊 SQL Playbook: Business-Critical Analytical Queries
 
 ## 🧠 Overview
 
