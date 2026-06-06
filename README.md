@@ -59,9 +59,9 @@ SQL-Playbook-Business_Critical-Analytical-Queries/
 └── dataset/
 ```
 
-* `queries/` --- 20 business-critical SQL queries
-* `explanations/` --- Business logic and reasoning per query
-* `dataset/` --- Sample dataset used for analysis
+* `queries/` -> 20 business-critical SQL queries
+* `explanations/` -> Business logic and reasoning per query
+* `dataset/` -> Sample dataset used for analysis
 
 ---
 
