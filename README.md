@@ -135,4 +135,4 @@ e-commerce analytics environments.
 ---
 
 *Part of the E-Commerce & Supply Chain Analytics Portfolio*
-*[View full portfolio](https://aarushijainportfolio.netlify.app/)*
+*[View full portfolio](https://aarushijainnportfolio.netlify.app/)*
